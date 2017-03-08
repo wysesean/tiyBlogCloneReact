@@ -6,9 +6,9 @@
 	max-width: 900px;
 }
 
-.img-container{
+#image-container{
 	margin: 0 auto;
-	max-width:900px;
+	max-width:90%;
 	position: relative;
 }
 img {
@@ -18,12 +18,13 @@ img {
 .logo{
 	border-style: solid;
 	border-color: white;
+
 	border-radius: 50%;
 	border-width: 15%;
-	max-width: 17%;
+	max-width: 20%;
 	position: absolute;
-	top: 30%;
-	left: 12%;
+	bottom: -20%;
+	left: 5%;
 }
 
 .website_body{
