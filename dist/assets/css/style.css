@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+	margin:0 auto;
+	max-width: 900px;
+}
+
+.img-container{
+	margin: 0 auto;
+	max-width:900px;
+	position: relative;
+}
+img {
+  max-width: 100%;
+}
+
+.logo{
+	border-style: solid;
+	border-color: white;
+	border-radius: 50%;
+	border-width: 15%;
+	max-width: 17%;
+	position: absolute;
+	top: 30%;
+	left: 12%;
+}
+
+.website_body{
+	padding-top: 75px;
+	display: inline-block;
+}
+
+.textcolumn{
+	display: inline-block;
+	  vertical-align: top;
+}
+
+.left{
+	padding-left: 10%;
+	width: 30%;
+}
+
+.right{
+	padding-left: 5%;
+	width:50%;
+}
+
+
+.input[type=text] {
+    max-width: 100%;
+	max-height: 100%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+input[type=text]:focus {
+    max-width: 200px;
+}
+
+p{
+	font-family: "Arial";
+}
+
+.line{
+	max-width: 100%;
+	border: 1px solid gray;
+}
+.subbox{
+	display:inline-block;
+	
+}
+.followbox{
+	display: inline-block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
